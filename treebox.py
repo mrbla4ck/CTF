@@ -23,7 +23,7 @@ dname = os.path.dirname(abspath)
 os.chdir(dname)
 
 print("-- Please enter code (last line must contain only --END)")
-source_code = ""
+source_code = "treebox.2022.ctfcompetition.com 1337"
 while True:
   line = sys.stdin.readline()
   if line.startswith("--END"):
